@@ -7,7 +7,7 @@ import Projects from "@/app/projects/page";
 
 export default function Home() {
     return (
-        <main className="min-h-screen bg-gradient-to-br from-gray-900 via-purple-900 to-gray-900">
+        <main className="min-h-screen bg-gradient-to-br from-gray-900 via-orange-950 to-gray-900">
             <Navigation/>
             <Hero/>
             <Skills/>

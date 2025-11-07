@@ -178,7 +178,7 @@ export default function Navigation() {
                                 className="cursor-pointer"
                             >
                                 <h1 className="text-2xl font-black gradient-text tracking-tight">
-                                    JANE NGUGI
+                                    JW
                                 </h1>
                             </motion.div>
                         </Link>
@@ -312,7 +312,7 @@ export default function Navigation() {
                                             onClick={handleLinkClick}
                                         >
                                             <h1 className="text-2xl font-black gradient-text tracking-tight">
-                                                JANE NGUGI
+                                                JW
                                             </h1>
                                         </Link>
                                         <button

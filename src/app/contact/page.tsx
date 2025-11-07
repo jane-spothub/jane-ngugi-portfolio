@@ -321,7 +321,7 @@ export default function Contact() {
                                                     name="name"
                                                     value={formData.name}
                                                     onChange={handleChange}
-                                                    className="w-full px-4 py-4 bg-gray-800/50 border border-gray-700 rounded-xl focus:ring-2 focus:ring-orange-500 focus:border-orange-500 text-white placeholder-gray-500 transition-all duration-300 backdrop-blur-sm"
+                                                    className="w-full px-4 py-4 bg-black/50 border border-gray-700 rounded-xl focus:ring-2 focus:ring-orange-500 focus:border-orange-500 text-white placeholder-gray-500 transition-all duration-300 backdrop-blur-sm"
                                                     placeholder="Enter your full name"
                                                     required
                                                     disabled={isSubmitting}
@@ -337,7 +337,7 @@ export default function Contact() {
                                                     name="email"
                                                     value={formData.email}
                                                     onChange={handleChange}
-                                                    className="w-full px-4 py-4 bg-gray-800/50 border border-gray-700 rounded-xl focus:ring-2 focus:ring-orange-500 focus:border-orange-500 text-white placeholder-gray-500 transition-all duration-300 backdrop-blur-sm"
+                                                    className="w-full px-4 py-4 bg-black/50 border border-gray-700 rounded-xl focus:ring-2 focus:ring-orange-500 focus:border-orange-500 text-white placeholder-gray-500 transition-all duration-300 backdrop-blur-sm"
                                                     placeholder="Enter your email address"
                                                     required
                                                     disabled={isSubmitting}
@@ -355,7 +355,7 @@ export default function Contact() {
                                                 name="subject"
                                                 value={formData.subject}
                                                 onChange={handleChange}
-                                                className="w-full px-4 py-4 bg-gray-800/50 border border-gray-700 rounded-xl focus:ring-2 focus:ring-orange-500 focus:border-orange-500 text-white placeholder-gray-500 transition-all duration-300 backdrop-blur-sm"
+                                                className="w-full px-4 py-4 bg-black/50 border border-gray-700 rounded-xl focus:ring-2 focus:ring-orange-500 focus:border-orange-500 text-white placeholder-gray-500 transition-all duration-300 backdrop-blur-sm"
                                                 placeholder="What's this about?"
                                                 required
                                                 disabled={isSubmitting}
@@ -372,7 +372,7 @@ export default function Contact() {
                                                 rows={6}
                                                 value={formData.message}
                                                 onChange={handleChange}
-                                                className="w-full px-4 py-4 bg-gray-800/50 border border-gray-700 rounded-xl focus:ring-2 focus:ring-orange-500 focus:border-orange-500 text-white placeholder-gray-500 transition-all duration-300 resize-none backdrop-blur-sm"
+                                                className="w-full px-4 py-4 bg-black/50 border border-gray-700 rounded-xl focus:ring-2 focus:ring-orange-500 focus:border-orange-500 text-white placeholder-gray-500 transition-all duration-300 resize-none backdrop-blur-sm"
                                                 placeholder="Tell me about your project, timeline, and budget..."
                                                 required
                                                 disabled={isSubmitting}
