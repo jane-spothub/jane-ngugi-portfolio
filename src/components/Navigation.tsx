@@ -5,6 +5,7 @@ import { motion, AnimatePresence, Variants } from 'framer-motion'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
+import {router} from "next/client";
 
 export default function Navigation() {
     const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -37,7 +38,7 @@ export default function Navigation() {
     const scrollToSection = (sectionId: string) => {
         // If we're not on the homepage, navigate to homepage with hash
         if (pathname !== '/') {
-            window.location.href = `/#${sectionId}`
+            router.push(`/#${sectionId}`)
             return
         }
 
@@ -381,7 +382,7 @@ export default function Navigation() {
                                         whileHover={{ scale: 1.02 }}
                                         whileTap={{ scale: 0.98 }}
                                     >
-                                        Let's Work Together
+                                        Let&#39;s Work Together
                                     </motion.button>
                                 </div>
                             </div>
